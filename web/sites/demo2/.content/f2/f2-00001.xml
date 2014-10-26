@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<F2Types xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/cn.v5cn.oc_demo2/schemas/f2.xsd">
+  <F2Type language="en">
+    <Title><![CDATA[<i class="fontawesome-icon medium circle-white center icon-rocket"></i>]]></Title>
+    <Title><![CDATA[<i class="fontawesome-icon medium circle-white center icon-cogs"></i>]]></Title>
+    <Title><![CDATA[<i class="fontawesome-icon medium circle-white center icon-microphone"></i>]]></Title>
+    <Title><![CDATA[<i class="fontawesome-icon medium circle-white center icon-trophy"></i>]]></Title>
+    <Text name="Text0">
+      <links/>
+      <content><![CDATA[<div class="col-md-12 text-center">
+<h1>Introducing Calypso, <span class="colortext">powerful</span> HTML5 template</h1>
+<p>Highly-professional &amp; modern website template created for you and your business prosperity. <br /> Calypso has all the flexibility and features needed for building a top-notch business website.</p>
+</div>]]></content>
+    </Text>
+    <Text name="Text1">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<h1>Powerful &amp; Beautiful</h1>
+<p>Lorem ipsum dolor sit adipiscing elit. Praesent tempus eleifend risus ut congue eset nec lacus.</p>
+<p class="fontupper"><a class="readmore" href="%(link0)">Read More </a></p>]]></content>
+    </Text>
+    <Text name="Text2">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<h1>Fresh &amp; Modern</h1>
+<p>Lorem ipsum dolor sit adipiscing elit. Praesent tempus eleifend risus ut congue eset nec lacus.</p>
+<p class="fontupper"><a class="readmore" href="%(link0)">Read More </a></p>]]></content>
+    </Text>
+    <Text name="Text3">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<h1>Clean Coded</h1>
+<p>Lorem ipsum dolor sit adipiscing elit. Praesent tempus eleifend risus ut congue eset nec lacus.</p>
+<p class="fontupper"><a class="readmore" href="%(link0)">Read More </a></p>]]></content>
+    </Text>
+    <Text name="Text4">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<h1>Winning Theme</h1>
+<p>Lorem ipsum dolor sit adipiscing elit. Praesent tempus eleifend risus ut congue eset nec lacus.</p>
+<p class="fontupper"><a class="readmore" href="%(link0)">Read More </a></p>]]></content>
+    </Text>
+  </F2Type>
+</F2Types>

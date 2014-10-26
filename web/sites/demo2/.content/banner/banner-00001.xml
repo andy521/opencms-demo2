@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SampleTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/cn.v5cn.oc_demo2/schemas/banner.xsd">
+  <SampleType language="en">
+    <Text name="Text0">
+      <links/>
+      <content><![CDATA[<div class="col-md-6 fadein scaleInv anim_1">
+<div class="fadein scaleInv anim_2">
+<h1 class="carouselText1 animated fadeInUpBig">Welcome to <span class="colortext">Calypso</span></h1>
+</div>
+<div class="fadein scaleInv anim_1">
+<p class="carouselText2 animated fadeInLeft">MultiPurpose Template</p>
+</div>
+<div class="fadein scaleInv anim_2">
+<p class="carouselText3">Bootstrap 3.0+ Compatible</p>
+</div>
+<div class="fadein scaleInv anim_3">
+<p class="carouselText3">Responsive Layouts</p>
+</div>
+<div class="fadein scaleInv anim_4">
+<p class="carouselText3">Beautiful Animation Effects</p>
+</div>
+<div class="fadein scaleInv anim_5">
+<p class="carouselText3">Top Notch Support</p>
+</div>
+</div>]]></content>
+    </Text>
+    <Text name="Text1">
+      <links/>
+      <content><![CDATA[<div class="col-md-6 animated fadeInDown  notransition topspace30 text-right">
+<div class="car-highlight1 animated fadeInLeftBig">Add ANYTHING in Slider</div>
+<br />
+<div class="car-highlight2 animated fadeInRightBig notransition">Powerful Options</div>
+<br />
+<div class="car-highlight3 animated fadeInUpBig notransition">Video, Audio, Text, Iframes etc</div>
+<br />
+<div class="car-highlight4 animated flipInX notransition">Any HTML5 code you wish</div>
+<br />
+<div class="car-highlight5 animated rollIn notransition">Slider with <span class="font100">Total Control</span><br /> <span class="font100" style="font-size: 20px;">Embed Practically</span> Anything</div>
+</div>]]></content>
+    </Text>
+    <Text name="Text2">
+      <links/>
+      <content><![CDATA[<div class="col-md-12 text-center"><br /> <br />
+<div class="animated fadeInDownBig notransition"><span class="car-largetext">Vivid Skins <span class="font300">&amp; Three</span> Layouts</span></div>
+<br /> <br />
+<div class="car-widecircle animated fadeInLeftBig notransition"><label>Wide</label></div>
+<div class="car-middlecircle animated fadeInUpBig notransition"><label>Boxed</label></div>
+<div class="car-smallcircle animated fadeInRightBig notransition"><label>Narrow</label></div>
+</div>]]></content>
+    </Text>
+    <Image>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/cn.v5cn.oc_demo2/resources/img/demo/bg.jpg]]></target>
+        <uuid>ef98d9fe-5b84-11e4-8346-e14ccc55105d</uuid>
+      </link>
+    </Image>
+    <Image>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/cn.v5cn.oc_demo2/resources/img/demo/slide1.jpg]]></target>
+        <uuid>f23eccd5-5b84-11e4-8346-e14ccc55105d</uuid>
+      </link>
+    </Image>
+    <Image>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/cn.v5cn.oc_demo2/resources/img/demo/slide2.jpg]]></target>
+        <uuid>f2843a48-5b84-11e4-8346-e14ccc55105d</uuid>
+      </link>
+    </Image>
+    <Image>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/cn.v5cn.oc_demo2/resources/img/demo/slide1-3.png]]></target>
+        <uuid>f1fc4592-5b84-11e4-8346-e14ccc55105d</uuid>
+      </link>
+    </Image>
+    <Image>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/cn.v5cn.oc_demo2/resources/img/demo/slide1-1.png]]></target>
+        <uuid>f1c975bc-5b84-11e4-8346-e14ccc55105d</uuid>
+      </link>
+    </Image>
+    <Image>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/cn.v5cn.oc_demo2/resources/img/demo/slide1-2.png]]></target>
+        <uuid>f1dd24cf-5b84-11e4-8346-e14ccc55105d</uuid>
+      </link>
+    </Image>
+    <Image>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/cn.v5cn.oc_demo2/resources/img/demo/desktop3.png]]></target>
+        <uuid>f0526604-5b84-11e4-8346-e14ccc55105d</uuid>
+      </link>
+    </Image>
+  </SampleType>
+</SampleTypes>
