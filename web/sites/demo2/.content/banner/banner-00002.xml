@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SampleTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/cn.v5cn.oc_demo2/schemas/banner.xsd">
+  <SampleType language="en">
+    <Text name="Text0">
+      <links/>
+      <content/>
+    </Text>
+    <Image/>
+  </SampleType>
+</SampleTypes>

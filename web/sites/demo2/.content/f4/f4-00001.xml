@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SampleTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/cn.v5cn.oc_demo2/schemas/f4.xsd">
+  <SampleType language="en">
+    <Title><![CDATA[WHAT THEY SAY]]></Title>
+    <ImgTxt>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/system/modules/cn.v5cn.oc_demo2/resources/img/avatar.jpg]]></target>
+          <uuid>46a49ba4-5b88-11e4-8346-e14ccc55105d</uuid>
+        </link>
+      </Image>
+      <Content name="Content0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p class="bigquote"><label class="icon-quote-left colortext quoteicon"></label> Lorem ipsum dolor sit adipiscing elit. Praesent tempus eleifend risus ut congue eset nec lacus. Lorem ipsum dolor sit adipiscing elit. Praesent tempus eleifend risus ut congue eset nec lacus. Praesent dignissim sem sapien, a vulputate enim auctor vitae. Duis non lorem porta, adipiscing eros sit amet, tempor sem.</p>
+<footer>John Doe / Owner of <a href="%(link0)">calypso.com</a></footer>]]></content>
+      </Content>
+    </ImgTxt>
+    <ImgTxt>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/system/modules/cn.v5cn.oc_demo2/resources/img/avatar2.jpg]]></target>
+          <uuid>f4008167-5eb6-11e4-aeac-e14ccc55105d</uuid>
+        </link>
+      </Image>
+      <Content name="Content0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p class="bigquote"><label class="icon-quote-left colortext quoteicon"></label> Lorem ipsum dolor sit adipiscing elit. Praesent tempus eleifend risus ut congue eset nec lacus. Lorem ipsum dolor sit adipiscing elit. Praesent tempus eleifend risus ut congue eset nec lacus. Praesent dignissim sem sapien, a vulputate enim auctor vitae. Duis non lorem porta, adipiscing eros sit amet, tempor sem.</p>
+<footer>Pino Caruso / Director of <a href="%(link0)">hisweb.com</a></footer>]]></content>
+      </Content>
+    </ImgTxt>
+    <Text1 name="Text10">
+      <links/>
+      <content><![CDATA[<h4><label class="icon icon-microphone"> </label> A Playground for Web</h4>
+<div class="bottomspace30">Trigger ideas: quickly experiment with site colors &amp; patterns, try out web typography and much more.</div>]]></content>
+    </Text1>
+    <Text2 name="Text20">
+      <links/>
+      <content><![CDATA[<h4><label class="icon icon-anchor"> </label> Great Project for Clients</h4>
+<div class="bottomspace30">Trigger ideas: quickly experiment with site colors &amp; patterns, try out web typography and much more.</div>]]></content>
+    </Text2>
+    <Text3 name="Text30">
+      <links/>
+      <content><![CDATA[<h4><label class="icon icon-user"> </label> Ready to Use Template</h4>
+<p>Trigger ideas: quickly experiment with site colors &amp; patterns, try out web typography and much more. </p>]]></content>
+    </Text3>
+    <Text4 name="Text40">
+      <links/>
+      <content><![CDATA[<h4><label class="icon icon-pushpin"> </label> New Modern Functions</h4>
+<p>Trigger ideas: quickly experiment with site colors &amp; patterns, try out web typography and much more. </p>]]></content>
+    </Text4>
+    <Text5 name="Text50">
+      <links/>
+      <content><![CDATA[<h4><label class="icon icon-cogs"> </label> Top Notch Support</h4>
+<p>Trigger ideas: quickly experiment with site colors &amp; patterns, try out web typography and much more. </p>]]></content>
+    </Text5>
+    <Text6 name="Text60">
+      <links/>
+      <content><![CDATA[<h4><label class="icon icon-leaf"> </label> Awesome Animations</h4>
+<div class="bottomspace30">Trigger ideas: quickly experiment with site colors &amp; patterns, try out web typography and much more.</div>]]></content>
+    </Text6>
+  </SampleType>
+</SampleTypes>

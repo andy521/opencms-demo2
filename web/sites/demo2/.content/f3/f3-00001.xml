@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<F3Types xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/cn.v5cn.oc_demo2/schemas/f3.xsd">
+  <F3Type language="en">
+    <Text1 name="Text10">
+      <links/>
+      <content><![CDATA[<h1 class="small text-center animated fadeInLeftNow notransition">FEATURED WORK</h1>
+<p class="animated fadeInRightNow notransition text-center topspace20">Calypso offers multiple layouts and ways of displaying your content in a manner that best suits for you and <br /> your customer. Make beautiful and eye catching site with Calypso today!</p>]]></content>
+    </Text1>
+    <Text2 name="Text20">
+      <links/>
+      <content><![CDATA[<ul class="icons">
+<li>
+<h4><label class="icon-magic"></label> Winning Template Awards</h4>
+<p>Suspendisse nisl sapien, mattis ut libero ut, placerat eleifend urna. Quisque commodo.</p>
+</li>
+<li>
+<h4><label class="icon-heart"></label> Love at first sight with App</h4>
+<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis consectetur venenatis ante in adipiscing.</p>
+</li>
+<li>
+<h4><label class="icon-twitter"></label> Top Social Media</h4>
+<p>Maecenas tempus purus vitae magna posuere tempor. Aliquam sed augue justo. Etiam pellentesque purus sed tincidunt dignissim.</p>
+</li>
+<li>
+<h4><label class="icon-leaf"></label> Professional modern Theme</h4>
+<p>Donec commodo euismod sem, eu vehicula dui malesuada rutrum. Cras lobortis.</p>
+</li>
+<li>
+<h4><label class="icon-cog"></label> Best choice for your Web</h4>
+<p>Quisque tempor convallis est ac viverra. Cras dictum arcu leo, commodo rhoncus turpis convallis ac. Praesent sapien nulla lobortis quis sapien eu.</p>
+</li>
+</ul>]]></content>
+    </Text2>
+    <Image>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/cn.v5cn.oc_demo2/resources/img/demo/desktop3.png]]></target>
+        <uuid>f0526604-5b84-11e4-8346-e14ccc55105d</uuid>
+      </link>
+    </Image>
+    <Image>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/cn.v5cn.oc_demo2/resources/img/demo/slide1-1.png]]></target>
+        <uuid>f1c975bc-5b84-11e4-8346-e14ccc55105d</uuid>
+      </link>
+    </Image>
+    <Image>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/cn.v5cn.oc_demo2/resources/img/demo/desktop2.png]]></target>
+        <uuid>f00bc011-5b84-11e4-8346-e14ccc55105d</uuid>
+      </link>
+    </Image>
+  </F3Type>
+</F3Types>

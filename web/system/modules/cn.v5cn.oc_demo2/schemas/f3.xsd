@@ -1,0 +1,38 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+
+	<xsd:element name="F3Types" type="OpenCmsF3Types"/>
+
+	<xsd:complexType name="OpenCmsF3Types">
+		<xsd:sequence>
+			<xsd:element name="F3Type" type="OpenCmsF3Type" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsF3Type">
+		<xsd:sequence>
+			<xsd:element name="Text1" type="OpenCmsHtml" />
+			<xsd:element name="Text2" type="OpenCmsHtml" />
+			<xsd:element name="Image" type="OpenCmsVfsFile" maxOccurs="8"/>
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
+	</xsd:complexType>
+
+	<xsd:annotation>
+		<xsd:appinfo>
+			<mappings>
+			</mappings>
+			<defaults>
+			</defaults>
+			<layouts>
+                <layout element="Text1" widget="HtmlWidget" configuration="height:400px,link,anchor,source,downloadgallery,formatselect"/>
+                <layout element="Text2" widget="HtmlWidget" configuration="height:400px,link,anchor,source,downloadgallery,formatselect"/>
+			</layouts>
+			<validationrules/>
+			<relations/>
+			<searchsettings containerPageOnly="true"/>
+		</xsd:appinfo>
+	</xsd:annotation>
+
+</xsd:schema>

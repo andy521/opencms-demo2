@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
+  <NewFormatter language="en">
+    <NiceName><![CDATA[Sample formatter for formatter3]]></NiceName>
+    <Type><![CDATA[f3]]></Type>
+    <Jsp>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/cn.v5cn.oc_demo2/formatters/f3-formatter.jsp]]></target>
+        <uuid>a903110f-5ea6-11e4-aeac-e14ccc55105d</uuid>
+      </link>
+    </Jsp>
+    <Rank><![CDATA[1000]]></Rank>
+    <Match>
+      <Width>
+        <Width><![CDATA[-1]]></Width>
+      </Width>
+    </Match>
+    <Preview>false</Preview>
+    <SearchContent>true</SearchContent>
+    <AutoEnabled>true</AutoEnabled>
+    <Detail>true</Detail>
+  </NewFormatter>
+</NewFormatters>
