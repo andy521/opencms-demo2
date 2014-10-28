@@ -18,5 +18,17 @@
       <Key><![CDATA[desc.f2]]></Key>
       <Value><![CDATA[第二个formatter]]></Value>
     </Message>
+    <Message>
+      <Key><![CDATA[fileicon.f3]]></Key>
+      <Value><![CDATA[formatter3]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.f4]]></Key>
+      <Value><![CDATA[f4-formatter]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.f4]]></Key>
+      <Value><![CDATA[f4]]></Value>
+    </Message>
   </Bundle>
 </XmlVfsBundles>

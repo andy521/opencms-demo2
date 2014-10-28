@@ -81,14 +81,18 @@
 
             <cms:navigation var="nav" type="treeForFolder" resource="/" startLevel="0" endLevel="1" />
             <ul id="nav" class="nav navbar-nav pull-right">
-                <li class="active"><a href="<cms:link>/</cms:link>">Home</a></li>
+                <%--<li class="active"><a href="<cms:link>/</cms:link>">Home</a></li>--%>
                 <c:forEach var="elem" items="${nav.items}" varStatus="status">
+                    <c:set var="active">false</c:set>
+                    <c:if test="${fn:startsWith(cms.requestContext.uri, elem.resourceName)}">
+                        <c:set var="active">true</c:set>
+                    </c:if>
                     <c:choose>
                         <c:when test="${elem.parentFolderName eq '/'}">
-                            <li><a href="<cms:link>${elem.resourceName}</cms:link>">${elem.navText}</a></li>
+                            <li <c:if test="${active}">class="active"</c:if>><a href="<cms:link>${elem.resourceName}</cms:link>">${elem.navText}</a></li>
                         </c:when>
                         <c:otherwise>
-                            <li class="dropdown">
+                            <li class="dropdown<c:if test="${active}"> active</c:if>">
                                 <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">${elem.navText} <i class="icon-angle-down"></i></a>
                                 <ul class="dropdown-menu">
                                     <cms:navigation var="sub" type="forSite" resource="${elem.parentFolderName}" startLevel="0" endLevel="1" />
